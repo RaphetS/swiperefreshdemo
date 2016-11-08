@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.raphets.swiperefreshdemo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_first"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:text="方法一"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginTop="1dp"
+        android:id="@+id/btn_second"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:text="方法二"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_third"
+        android:layout_marginTop="1dp"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:text="方法三"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_fourth"
+        android:layout_marginTop="1dp"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:text="方法四"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
